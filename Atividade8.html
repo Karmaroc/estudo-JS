@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+
+<script>
+    
+    var numero = +prompt("Digite um número: ");
+
+    for (var i = 2; (numero % i != 0 && numero != 1); i += 1) {
+        continue;
+    }     
+
+    if (i == numero && numero != 1) {
+        document.write("Primo!");
+    } else {
+        document.write("Não é Primo!");
+    }
+
+</script>
